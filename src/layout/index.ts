@@ -1,1 +1,3 @@
-export * from "./Navbar.astro";
+import Navbar from "./Navbar.astro";
+
+export { Navbar };

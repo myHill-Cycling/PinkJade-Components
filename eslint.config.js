@@ -1,3 +1,10 @@
-import {astro} from "@myhill-cycling/pinkjade-configuration/eslint";
+import { astro } from "@myhill-cycling/pinkjade-configuration/eslint";
 
-export default astro;
+export default [
+	...astro,
+	{
+		rules: {
+			"astro/jsx-a11y/anchor-is-valid": "off"
+		}
+	}
+];
