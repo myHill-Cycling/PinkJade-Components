@@ -1,0 +1,29 @@
+{
+	"name": "@myhill-cycling/pinkjade-components",
+	"version": "1.0.0",
+	"author": "Vespion",
+	"private": true,
+	"type": "module",
+	"exports": {
+		".": "./src/index.ts"
+	},
+	"files": [
+		"src",
+		"src/index.ts"
+	],
+	"engines": {
+		"node": "^18",
+		"pnpm": "^8"
+	},
+	"engineStrict": true,
+	"packageManager": "pnpm@8.6.11",
+	"devDependencies": {
+		"@myhill-cycling/pinkjade-configuration": "workspace:*",
+		"accessible-astro-components": "2.1.0",
+		"astro": "2.0.1",
+		"astro-icon": "0.7.3",
+		"eslint": "8.33.0",
+		"prettier": "2.8.3",
+		"tailwindcss": "3.2.7"
+	}
+}
