@@ -20,10 +20,10 @@
 	"devDependencies": {
 		"@myhill-cycling/pinkjade-configuration": "workspace:*",
 		"accessible-astro-components": "2.1.0",
-		"astro": "2.0.1",
-		"astro-icon": "0.7.3",
-		"eslint": "8.33.0",
-		"prettier": "2.8.3",
-		"tailwindcss": "3.2.7"
+		"astro": "2.10.1",
+		"astro-icon": "0.8.1",
+		"eslint": "8.46.0",
+		"prettier": "3.0.1",
+		"tailwindcss": "3.3.3"
 	}
 }
