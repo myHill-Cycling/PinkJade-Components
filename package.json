@@ -11,10 +11,14 @@
 	"keywords": [
 		"astro-component"
 	],
-	"scripts": {},
+	"scripts": {
+		"prepare": "husky install"
+	},
 	"devDependencies": {
 		"astro": "2.10.1",
-		"@myhill-cycling/pinkjade-configuration": "1.0.0"
+		"@myhill-cycling/pinkjade-configuration": "1.0.0",
+		"husky": "8.0.3",
+		"lint-staged": "13.2.3"
 	},
 	"peerDependencies": {
 		"astro": "^2.10.1"
