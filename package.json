@@ -15,7 +15,7 @@
 		"prepare": "husky install"
 	},
 	"devDependencies": {
-		"astro": "2.10.1",
+		"astro": "2.10.15",
 		"@myhill-cycling/pinkjade-configuration": "1.0.0",
 		"husky": "8.0.3",
 		"lint-staged": "13.2.3"
